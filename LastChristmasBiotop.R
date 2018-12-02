@@ -114,8 +114,10 @@ print(plotCorr( title="Last Christmas I gave you a Fruit Cake...", terms1="Last 
 print(plotCorr( title="Last Christmas I gave you...", terms1="Last Christmas", terms2="AIDS", geo="CA", ymax=2008))
 print(plotCorr( title="Last Christmas I gave you my heart...", terms1="Last Christmas", terms2="Gift", geo=""))
 print(plotCorr( title="Last Christmas I gave you the flu...", terms1="Last Christmas", terms2="Influenza", geo="US"))
+print(plotCorr( title="Last Christmas I gave you dry air...", terms1="Last Christmas", terms2="Luftbefeuchter", geo="AT"))
+print(plotCorr( title="Last Christmas I gave you not a penny...", terms1="Last Christmas", terms2="miser", geo="US"))
+print(plotCorr( title="Last Christmas I gave you a preference for outdated words...", terms1="Last Christmas", terms2="ye", geo="US"))
 print(plotCorr( title="Last Christmas I gave you a divorce...", terms1="Last Christmas", terms2="Divorce", geo="GB", summarize = T))
-
 #
 # Plot correlation data with external data sources.
 # Load and filter data from https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/divorce/datasets/divorcesinenglandandwales
